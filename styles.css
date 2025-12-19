@@ -1,0 +1,281 @@
+body{
+    background-color: hsl(250, 100%, 10%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+    
+
+}
+
+
+#pa1{
+    font-size: 65px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#pa2{
+    font-size: 30px;
+    padding: auto;
+}
+
+#pa3{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#summaryOp{
+    transition: all 0.3s ease-in-out;;
+    transition-duration: 5ms;
+}
+#summaryOp:focus{
+    transform: scale(1.2);
+}
+
+.myp{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+#TIKTOK:hover{
+    color: hsl(0, 0%, 10%);
+}
+
+#TWITTER:hover{
+    color: aqua;
+}
+
+#YOUTUBE:hover{
+    color: red;
+}
+
+#FACEBOOK:hover{
+    color: blue;
+}
+
+#WHATSAPP:hover{
+    color: hsla(106, 100%, 54%, 0.959);
+}
+
+p{
+    padding: 15px;
+    margin: 50px;
+    font-size: 23px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#input:hover{
+    font-size: 16px;
+}
+
+input{
+    border-radius: 100px;
+    border-style: none;
+    border: 2px solid yellow;
+    padding: 5px;
+    font-size: 15px;
+    margin: 20px;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+input:focus{
+    cursor: pointer;
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 12px;
+    border-style: none;
+    border: 2px solid yellow;
+}
+
+#countLable{
+    display: block;
+    text-align: center;
+    font-size: 12EM;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+#countLable:hover{
+    color: yellow;
+    transform: scale(1.2);
+}
+
+.dropdown{
+    position: relative; /* establish containing block for absolute content */
+    display: inline-block;
+}
+
+#main1{
+    width: 15%;
+    height: auto;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+    transition: all 2px ease-in-out;
+}
+
+#main1:hover{
+    transform: scale(1.2);
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 80%);
+    padding: 10px;
+    border: 3px solid;
+    border-color: yellow;
+    margin: 5px; /* remove large margins so elements stack cleanly */
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    width: 150px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    top: 100%; /* place directly beneath the trigger */
+    left: 0;
+    z-index: 1000;
+    background-color: hsl(250, 100%, 10%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    margin: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+
+i{
+    margin: 15px;
+    font-size: 30px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+i:hover{
+    transform: scale(1.3);
+}
+
+#unitedHomecell{
+    width: 199px;
+}
+
+#box{
+    width:auto;
+    height: auto;
+    box-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 5px solid;
+    border-color: yellow;
+    box-shadow: 0px 0px 70px yellow;
+    font-size: 25px;
+}
+
+.myp{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#TAKING{
+    width: 221px;
+}
+
+.Home{
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 80%);
+    padding: 10px;
+    border: 3px solid;
+    border-color:yellow;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    width: 150px;
+}
+
+button:hover{
+    background-color: yellow;
+     transform: scale(1.2);
+     border-radius: 100px;
+}
+
+img{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    border: 5px solid;
+    border-color: yellow;
+    margin: 25px;
+    box-shadow: 0px 0px 90px rgb(255, 255, 0);
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.k1{ 
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    border: 3px solid;
+    border-color: yellow;
+    border-radius: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-style: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 0%, 100%);
+
+}
+
+hr{
+    border: 2px solid;
+    border-color: yellow;
+    width: 80%;
+}
+
+.icons{
+    margin: 20px;
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(214, 214, 214);
+}
+
+#hrr{
+    border: 3px solid;
+    border-color: yellow;
+    width: 30%;
+    margin-top: 30px;
+}
+
+footer{
+    padding: 10px;
+    font-size: 12px;
+}
+
+#myh1{
+    font-size: 60px;
+}
